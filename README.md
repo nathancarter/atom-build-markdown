@@ -1,14 +1,18 @@
-# Atom Markdown Builder
+# Atom Weave.jl Builder
 
-A Marked.app builder for Atom.
+A builder for `.jmd` files in Atom, using [Weave.jl](https://github.com/mpastell/Weave.jl).
 
 This is a plugin for the latest version of
 [atom-build](https://atom.io/packages/build), which is a package that lets you
 run build scripts based on what files are in your project. This plugin, in
-particular, will launch `Marked.app` (or `Marked 2.app` in the upcoming version)
-on Mac OS X if you try to build a file whose name ends in `.md` or `.mkd`. If
-you use Linux or Windows, and have a favourite Markdown previewer, I would love
-to add support for those, too!
+particular, will run the [Julia](http://www.julialang.org) script
+[Weave.jl](https://github.com/mpastell/Weave.jl) on the currently open `.jmd` file,
+compiling it.  See the [Weave.jl](https://github.com/mpastell/Weave.jl) documentation
+for more details.
+
+Thanks to [Blake Winton](https://github.com/bwinton) for the
+[atom-build-markdown](https://github.com/bwinton/atom-build-markdown) project,
+from which this is a fork.
 
 ## License
 
