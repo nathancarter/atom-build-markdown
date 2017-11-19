@@ -13,7 +13,3 @@ for more details.
 Thanks to [Blake Winton](https://github.com/bwinton) for the
 [atom-build-markdown](https://github.com/bwinton/atom-build-markdown) project,
 from which this is a fork.
-
-## License
-
-Licensed under the MPL v2.0 License. See `LICENSE.md` for details.
