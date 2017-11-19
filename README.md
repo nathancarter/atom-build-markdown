@@ -1,5 +1,12 @@
 # Atom Weave.jl Builder
 
+## THIS REPOSITORY WAS RECENTLY FORKED, AND HASN'T BEEN UPDATED
+
+In particular, its eventual goals are listed below, but it doesn't yet meet them.
+Come back later -- still under construction!
+
+-----
+
 A builder for `.jmd` files in Atom, using [Weave.jl](https://github.com/mpastell/Weave.jl).
 
 This is a plugin for the latest version of
